@@ -1,0 +1,72 @@
+/* Estilo geral da página */
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte moderna e estilosa */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(135deg, #f3f3f3, #e0e0e0); /* Gradiente para um visual mais interessante */
+    color: #333;
+}
+
+/* Estilo do título */
+h2 {
+    font-size: 3rem; /* Título maior e mais chamativo */
+    color: #004d33;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Sombra para destacar */
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 20px auto;
+    font-weight: 300; /* Texto mais leve */
+}
+
+/* Estilo do botão com interatividade */
+button {
+    background: linear-gradient(145deg, #006241, #008f57);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #004d33, #006241);
+    transform: translateY(-3px);
+}
+
+/* Estilo das imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo das miniaturas */
+img[src*="thumb"] {
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid #006241;
+}
+
+/* Estilo do logo */
+img[src*="logo"] {
+    width: 150px;
+    margin-top: 20px;
+}
